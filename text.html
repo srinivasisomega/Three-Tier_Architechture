@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operations</title>
+</head>
+<body>
+    <h1>Operations</h1>
+    <h2>Binary Operations</h2>
+    <form method="post" action="/binary">
+        <label>Name:</label>
+        <input type="text" name="name" required />
+        <label>Number 1:</label>
+        <input type="text" name="number1" required />
+        <label>Number 2:</label>
+        <input type="text" name="number2" required />
+        <label>Operation:</label>
+        <select name="operation">
+            <option value="Addition">Addition</option>
+            <option value="Subtraction">Subtraction</option>
+            <option value="Multiply">Multiply</option>
+            <option value="Division">Division</option>
+        </select>
+        <button type="submit">Calculate</button>
+    </form>
+    <h2>Sphere Calculations</h2>
+    <form method="post" action="/sphere">
+        <label>Radius:</label>
+        <input type="text" name="radius" required />
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>
